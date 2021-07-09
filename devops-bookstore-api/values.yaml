@@ -9,7 +9,7 @@ image:
   repository: 654193745322.dkr.ecr.eu-west-2.amazonaws.com/devops-bookstore-api
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "1.0"
   containerPort: 5000
   livenessProbe: /books
   readinessProbe: /books
